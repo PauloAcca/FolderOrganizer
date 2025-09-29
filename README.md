@@ -24,7 +24,9 @@ This project is a Python script that automatically organizes the files in your D
 
 ## 🔧 Installation
 Clone the repository:
+
 	git clone https://github.com/PauloAcca/FolderOrganizer.git
+
 	cd FolderOrganizer
 
 ⸻
