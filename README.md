@@ -1,54 +1,62 @@
-# 📂 Folder Organizer
+## 📂 Folder Organizer
 
-Este proyecto es un **script en Python** que organiza automáticamente los archivos de tu carpeta de **Descargas/Downloads** en subcarpetas según su tipo (imágenes, videos, documentos, música, etc.).
+This project is a Python script that automatically organizes the files in your Downloads/Descargas folder into subfolders based on their type (images, videos, documents, music, etc.).
 
-## 🚀 Características
-- Detecta automáticamente si tu carpeta se llama **Downloads** o **Descargas**.
-- Clasifica los archivos por categorías:
-  - Imágenes (`.jpg`, `.png`, `.gif`, etc.)
-  - Videos (`.mp4`, `.avi`, `.mkv`, etc.)
-  - Música (`.mp3`, `.wav`, `.flac`, etc.)
-  - Documentos (`.pdf`, `.docx`, `.xlsx`, etc.)
-  - Comprimidos (`.zip`, `.rar`, `.7z`, etc.)
-- Los archivos que no encajan en ninguna categoría se mueven a la carpeta **Otros**.
-- Si un archivo con el mismo nombre ya existe, el script agrega un número al final para evitar sobrescribirlo.
+## 🚀 Features
+	•	Automatically detects whether your folder is named Downloads or Descargas.
+	•	Classifies files into categories:
+	•	Images (.jpg, .png, .gif, etc.)
+	•	Videos (.mp4, .avi, .mkv, etc.)
+	•	Music (.mp3, .wav, .flac, etc.)
+	•	Documents (.pdf, .docx, .xlsx, etc.)
+	•	Archives (.zip, .rar, .7z, etc.)
+	•	Files that don’t match any category are moved to the Others folder.
+	•	If a file with the same name already exists, the script appends a number to avoid overwriting it.
 
----
+⸻
 
-## 📋 Requisitos
-- Python **3.8+**
-- Funciona en **Windows, Linux y macOS**
-- No requiere instalar librerías externas (usa solo librerías estándar de Python).
+## 📋 Requirements
+	•	Python 3.8+
+	•	Works on Windows, Linux, and macOS
+	•	No need to install external libraries (uses only Python standard libraries).
 
----
+⸻
 
-## 🔧 Instalación
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/PauloAcca/FolderOrganizer.git
-   cd FolderOrganizer
+## 🔧 Installation
+	1.	Clone the repository:
+git clone https://github.com/PauloAcca/FolderOrganizer.git
+cd FolderOrganizer
 
-## ▶️ Uso
-  1.	Abrí una terminal en la carpeta del proyecto.
-	2.	Ejecutá el script: python organizer.py (asumiendo que guardaste el código en un archivo llamado organizer.py)
-  3.	El script moverá los archivos de tu carpeta Descargas/Downloads a las carpetas correspondientes:
-  	•	Imagenes/
-  	•	Videos/
-  	•	Musica/
-  	•	Documentos/
-  	•	Comprimidos/
-  	•	Otros/
+⸻
 
-## 📝 Ejemplo de salida
-  Movido foto1.jpg a Imagenes
-  Movido informe.pdf a Documentos
-  Movido video.mp4 a Videos
-  Movido archivo.zip a Comprimidos
+## ▶️ Usage
+	1.	Open a terminal in the project folder.
+	2.	Run the script: python organizer.py (assuming you saved the code in a file called organizer.py)
+	3.	The script will move the files from your Downloads/Descargas folder into the following folders:
+• Imagenes/
+• Videos/
+• Musica/
+• Documentos/
+• Comprimidos/
+• Otros/
 
-## ⚠️ Notas
-	•	Este script mueve los archivos, no los copia.
-	•	Si querés probarlo sin arriesgar tus archivos, podés crear una carpeta de prueba con algunos archivos de ejemplo y cambiar la       variable carpeta_objetivo en el código.
+⸻
 
-## Extra
+## 📝 Example Output
 
-Podes modificarlo para que organize en mas carpeteas y tipos de archivos, este fue armado para uso propio.
+Movido foto1.jpg a Imagenes
+Movido informe.pdf a Documentos
+Movido video.mp4 a Videos
+Movido archivo.zip a Comprimidos
+
+⸻
+
+## ⚠️ Notes
+	•	This script moves files, it does not copy them.
+	•	If you want to test it safely, you can create a test folder with sample files and change the carpeta_objetivo variable in the code.
+
+⸻
+
+## 🛠️ Extra
+
+You can customize it to organize into more folders, subfolders, or even target a different directory than Downloads, with different file types. This version was built for personal use.
